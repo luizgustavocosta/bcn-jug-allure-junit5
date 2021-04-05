@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 05 10:05:36 GMT 2021","Mon Apr 05 10:05:37 GMT 2021","962","","Payment Controller","","com.costa.luiz.domain.payment.PaymentControllerTest","transferFunds","Transfer funds",""
+"passed","Mon Apr 05 10:05:37 GMT 2021","Mon Apr 05 10:05:37 GMT 2021","1","","Payment Controller","","com.costa.luiz.domain.payment.PaymentControllerTest","requestPayment","Request payment",""

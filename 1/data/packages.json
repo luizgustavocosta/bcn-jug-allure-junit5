@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.costa.luiz.domain.payment.PaymentControllerTest",
+    "children" : [ {
+      "name" : "transferFunds",
+      "uid" : "847d7d75d717da4b",
+      "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617617136607,
+        "stop" : 1617617137569,
+        "duration" : 962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "requestPayment",
+      "uid" : "e849a541a1fbf99f",
+      "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617617137708,
+        "stop" : 1617617137709,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.costa.luiz.domain.payment.PaymentControllerTest"
+  } ],
+  "name" : "packages"
+}
