@@ -2,7 +2,6 @@ package com.costa.luiz.domain.payment;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class InMemoryStore<T> {
 

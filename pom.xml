@@ -74,6 +74,13 @@
             <artifactId>allure-junit5</artifactId>
             <version>${allure.version}</version>
         </dependency>
+        <!-- Category -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-selenide</artifactId>
+            <version>2.13.8</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
