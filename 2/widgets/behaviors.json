@@ -1,0 +1,26 @@
+{
+  "total" : 21,
+  "items" : [ {
+    "uid" : "b011e9f48a54053befe21ff6394216c0",
+    "name" : "Some feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "21849508a9cb3ef4ee66373b541482b6",
+    "name" : "Payment Methods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

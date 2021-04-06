@@ -1,0 +1,211 @@
+[ {
+  "uid" : "504df8f81fdc0064",
+  "name" : "allureParameterizedTest displayName [Second Name]",
+  "time" : {
+    "start" : 1617725082831,
+    "stop" : 1617725082832,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65155505cf6c9591",
+  "name" : "allureSimpleStepTest()",
+  "time" : {
+    "start" : 1617725082864,
+    "stop" : 1617725082865,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ae79818d3332b34",
+  "name" : "allureStepAnnotationTest()",
+  "time" : {
+    "start" : 1617725082972,
+    "stop" : 1617725082974,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b5bb838f7603f7",
+  "name" : "save()",
+  "time" : {
+    "start" : 1617725083081,
+    "stop" : 1617725083081,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "80159669a045e013",
+  "name" : "allureSuiteTest()",
+  "time" : {
+    "start" : 1617725082992,
+    "stop" : 1617725082993,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f09373056d8c1590",
+  "name" : "allureLambdaStepTest()",
+  "time" : {
+    "start" : 1617725082869,
+    "stop" : 1617725082880,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97c709b8caf9d0b5",
+  "name" : "allureTestParametersTest()",
+  "time" : {
+    "start" : 1617725082958,
+    "stop" : 1617725082958,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f195acec03314c94",
+  "name" : "allureParameterizedTest displayName [First Name]",
+  "time" : {
+    "start" : 1617725082747,
+    "stop" : 1617725082817,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be7fc64d169ab154",
+  "name" : "allureFakeParameterizedTest()",
+  "time" : {
+    "start" : 1617725082537,
+    "stop" : 1617725082596,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2645c86915b2e5f",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1617725083069,
+    "stop" : 1617725083079,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1ce76af03877739a",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1617725083904,
+    "stop" : 1617725083905,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a226d06456f2e5c",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1617725083917,
+    "stop" : 1617725083918,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "99c4f799f6a35cef",
+  "name" : "allureFixtureTest()",
+  "time" : {
+    "start" : 1617725083019,
+    "stop" : 1617725083024,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cea0671eb1649897",
+  "name" : "allureSimpleTest displayName",
+  "time" : {
+    "start" : 1617725082916,
+    "stop" : 1617725082947,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ab264ab300384e2",
+  "name" : "allureSuite2Test()",
+  "time" : {
+    "start" : 1617725082987,
+    "stop" : 1617725082988,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fe2b5f88f4ffd86",
+  "name" : "allureLabelTest()",
+  "time" : {
+    "start" : 1617725082843,
+    "stop" : 1617725082856,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61f08f0b3040b0bd",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1617725083057,
+    "stop" : 1617725083057,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a8c7016b3be105a1",
+  "name" : "allureFixtureTest2()",
+  "time" : {
+    "start" : 1617725083037,
+    "stop" : 1617725083037,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed557ceee6f625f9",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1617725083114,
+    "stop" : 1617725083900,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6b96632aecf4c4a",
+  "name" : "allureOneTestParameterTest()",
+  "time" : {
+    "start" : 1617725082964,
+    "stop" : 1617725082966,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a922667c3963a4d4",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1617725083065,
+    "stop" : 1617725083065,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
