@@ -7,6 +7,9 @@ Share the experience using Allure
 ## Build status
 [![allure-junit5-maven](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml/badge.svg?branch=main)](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml)
 
+## Sonarcloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luizgustavocosta_bcn-jug-allure-junit5&metric=alert_status)](https://sonarcloud.io/dashboard?id=luizgustavocosta_bcn-jug-allure-junit5)
+
 ## Tech/framework used
 <b>Built with</b>
 - [OpenJDK 11](https://openjdk.java.net/projects/jdk/11/)
@@ -14,7 +17,7 @@ Share the experience using Allure
 - [Allure](https://docs.qameta.io/allure/)
 
 ## Features
-What makes your project stand out?
+Payment
 
 ## Code Example
 ```java
@@ -34,7 +37,7 @@ void doStuff() {
  mvn clean verify allure:report
  ```
 - The command above will execute all tests and generate the Allure report
-- Open the file index.html under the folder bcn-jug-allure-junit5/allure-results  
+- Open the file index.html under the folder bcn-jug-allure-junit5/target/allure-results  
 
 ## References
 * [Allure](https://docs.qameta.io/allure/)
