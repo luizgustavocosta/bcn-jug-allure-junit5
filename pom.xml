@@ -13,6 +13,7 @@
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <junit.maven.surefire.plugin.version>2.19.1</junit.maven.surefire.plugin.version>
         <junit.platform.commons.version>1.7.0</junit.platform.commons.version>
+        <junit.platform.commons.version>1.6.2</junit.platform.commons.version>
         <junit.platform.surefire.provider.version>1.1.0</junit.platform.surefire.provider.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <mockito.core.version>2.24.0</mockito.core.version>
@@ -23,6 +24,10 @@
         <aspectj.version>1.9.4</aspectj.version>
         <allure.version>2.13.6</allure.version>
         <allure.maven.version>2.10.0</allure.maven.version>
+        <allure-selenide.version>2.13.8</allure-selenide.version>
+        <sonar.projectKey>luizgustavocosta_bcn-jug-allure-junit5</sonar.projectKey>
+        <sonar.organization>luizgustavocosta</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -66,7 +71,7 @@
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
-            <version>1.6.2</version>
+            <version>${junit.platform.commons.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -78,7 +83,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-selenide</artifactId>
-            <version>2.13.8</version>
+            <version>${allure-selenide.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -107,7 +112,8 @@
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
                     </argLine>
                     <systemPropertyVariables>
-                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+<!--                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>-->
+                        <allure.results.directory>${project.basedir}/allure-results</allure.results.directory>
                         <junit.jupiter.extensions.autodetection.enabled>true</junit.jupiter.extensions.autodetection.enabled>
                         <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
                         <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
@@ -137,7 +143,8 @@
                 <version>${allure.maven.version}</version>
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
-                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+<!--                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>-->
+                    <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>
                 </configuration>
             </plugin>
         </plugins>
