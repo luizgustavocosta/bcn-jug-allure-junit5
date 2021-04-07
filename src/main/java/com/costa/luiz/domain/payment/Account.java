@@ -1,9 +1,12 @@
 package com.costa.luiz.domain.payment;
 
+import com.costa.luiz.domain.infrastructure.Model;
+
+@Model
 public class Account {
 
-    private String name;
-    private String iban;
+    private final String name;
+    private final String iban;
     // Just to simplify
     private double balance;
 
@@ -42,4 +45,12 @@ public class Account {
         return this.balance;
     }
 
+    @Override
+    public String toString() {
+        return "Account{" +
+                "name='" + name + '\'' +
+                ", iban='" + iban + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
 }

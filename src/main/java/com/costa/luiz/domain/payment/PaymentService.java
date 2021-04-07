@@ -1,13 +1,9 @@
 package com.costa.luiz.domain.payment;
 
-public class PaymentService {
+import com.costa.luiz.domain.infrastructure.Service;
 
-    void prepareForPayment(){}
-    void requestPayment() {}
-    void authorizePayment() {}
-    void initiatePayment() {}
-    void sendPayment() { }
-    void sendPaymentInstructions() { }
+@Service
+public class PaymentService {
 
     void debitAccountAndTransferFunds(Account buyer, Account seller, double amount){
         buyer.balanceOperation(Operation.DEBIT, amount);
@@ -18,8 +14,34 @@ public class PaymentService {
         account.balanceOperation(Operation.CREDIT, amount);
     }
 
-    void advicePaymentCredit(){}
-    void advicePaymentDebit(){}
-    void acknowledgeDebitAndReconcile(){}
-    void acknowledgeCreditAndReconcile(){}
+    void prepareForPayment(){
+        throw new UnsupportedOperationException();
+    }
+    void requestPayment() {
+        throw new UnsupportedOperationException();
+    }
+    void authorizePayment() {
+        throw new UnsupportedOperationException();
+    }
+    void initiatePayment() {
+        throw new UnsupportedOperationException();
+    }
+    void sendPayment() {
+        throw new UnsupportedOperationException();
+    }
+    void sendPaymentInstructions() {
+        throw new UnsupportedOperationException();
+    }
+    void advicePaymentCredit(){
+        throw new UnsupportedOperationException();
+    }
+    void advicePaymentDebit(){
+        throw new UnsupportedOperationException();
+    }
+    void acknowledgeDebitAndReconcile(){
+        throw new UnsupportedOperationException();
+    }
+    void acknowledgeCreditAndReconcile(){
+        throw new UnsupportedOperationException();
+    }
 }

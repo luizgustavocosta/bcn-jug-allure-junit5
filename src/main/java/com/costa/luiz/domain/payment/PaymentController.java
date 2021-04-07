@@ -1,13 +1,18 @@
 package com.costa.luiz.domain.payment;
 
-/**
- * This is a fake controller
- */
+import com.costa.luiz.domain.infrastructure.Controller;
+import com.costa.luiz.domain.infrastructure.Requires;
+
+import java.util.Objects;
+
+@Controller
 public class PaymentController {
 
+    @Requires
     private final PaymentService service;
 
     public PaymentController(PaymentService service) {
+        Objects.requireNonNull(service, "An instance of service is expected");
         this.service = service;
     }
 

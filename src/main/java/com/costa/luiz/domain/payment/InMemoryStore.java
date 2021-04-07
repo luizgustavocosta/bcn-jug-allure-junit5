@@ -1,8 +1,11 @@
 package com.costa.luiz.domain.payment;
 
+import com.costa.luiz.domain.infrastructure.Store;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Store
 public class InMemoryStore<T> {
 
     private final List<T> data;
