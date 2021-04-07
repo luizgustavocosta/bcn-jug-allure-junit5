@@ -1,24 +1,24 @@
-[Para español, haga clic aquí 🇪🇸](README_es.md)
+[For english, click here 🇬🇧](README.md)
 
-# Project title
-Test report using Allure and JUnit5
+# Título del Proyecto
+Informes con Allure y JUnit5
 
-## Motivation
-Share the experience using Allure
+## Motivación
+Compartir la experiencia con Allure
 
 ## Build status
 [![allure-junit5-maven](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml/badge.svg?branch=main)](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml)
 
 ## Tech/framework used
-<b>Built with</b>
+<b>Construido con</b>
 - [OpenJDK 11](https://openjdk.java.net/projects/jdk/11/)
 - [JUnit5](https://junit.org/junit5/docs/current/user-guide/)
 - [Allure](https://docs.qameta.io/allure/)
 
-## Features
-Payment
+## Características
+Pago
 
-## Code Example
+## Ejemplo
 ```java
 @Feature("Payment")
 class PaymentServiceTest {
@@ -49,12 +49,12 @@ class PaymentServiceTest {
 }
 ```
 
-## Run locally
- - Download the project through the GitHub using
+## Ejecutar localmente
+ - Descarga el proyecto a través de GitHub usando
  ```git
  git clone https://github.com/luizgustavocosta/bcn-jug-allure-junit5.git
  ```
-- Fix the failed test on InMemoryStoreTest class
+- Corrigir la prueba fallida en la classe InMemoryTest
  ```java
      @Test
      @Severity(SeverityLevel.TRIVIAL)
@@ -62,16 +62,16 @@ class PaymentServiceTest {
          assertNotNull(null);
      }
  ```
-- Go to project folder and then execute
+- Ir en la carpeta del proyecto y luego ejecute
  ```maven
  mvn clean verify allure:report
  ```
-- The command above will execute all tests and generate the Allure report
-- Open the file index.html under the folder bcn-jug-allure-junit5/target/site
+- El comando anterior ejecutará todas las pruebas y generará el Allure report
+- Abra el archivo index.html en la carpeta bcn-jug-allure-junit5/target/site
 
 ![Allure Report](static/allure-report.png)  
 
-## References
+## Referencias
 * [Allure](https://docs.qameta.io/allure/)
 * [Allure example](https://github.com/allure-examples/allure-junit5-example)
 * [Payment domain](http://tfig.unece.org/contents/intro-domain-payment.htm)
