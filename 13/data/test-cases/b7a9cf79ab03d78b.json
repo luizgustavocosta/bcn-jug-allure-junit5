@@ -1,0 +1,90 @@
+{
+  "uid" : "b7a9cf79ab03d78b",
+  "name" : "findAll()",
+  "fullName" : "com.costa.luiz.domain.payment.InMemoryStoreTest.findAll",
+  "historyId" : "c41a867c9fbcc2b60d23271ae20bd4c7",
+  "time" : {
+    "start" : 1617833780967,
+    "stop" : 1617833780968,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az92-825"
+  }, {
+    "name" : "thread",
+    "value" : "3189@fv-az92-825.ForkJoinPool-1-worker-3(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.costa.luiz.domain.payment.InMemoryStoreTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.costa.luiz.domain.payment.InMemoryStoreTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "findAll"
+  }, {
+    "name" : "suite",
+    "value" : "In memory store"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6670dbcf199d0c63",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/12//#testresult/6670dbcf199d0c63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466534,
+          "stop" : 1617832466535,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6c0ee008d5756522",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/11//#testresult/6c0ee008d5756522",
+        "status" : "failed",
+        "statusDetails" : "expected: not <null>",
+        "time" : {
+          "start" : 1617830933183,
+          "stop" : 1617830933189,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7a9cf79ab03d78b.json",
+  "parameterValues" : [ ]
+}
