@@ -1,0 +1,189 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.costa.luiz.domain.payment",
+    "children" : [ {
+      "name" : "AccountTest",
+      "children" : [ {
+        "name" : "balanceOperation",
+        "uid" : "81ae37d78060c97f",
+        "parentUid" : "41197803a038043f5f534b2c56455eaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832465474,
+          "stop" : 1617832465542,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "balanceOperation",
+        "uid" : "9218ed02e6b595a2",
+        "parentUid" : "41197803a038043f5f534b2c56455eaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832465657,
+          "stop" : 1617832465659,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41197803a038043f5f534b2c56455eaf"
+    }, {
+      "name" : "PaymentServiceTest",
+      "children" : [ {
+        "name" : "debitAccountAndTransferFunds",
+        "uid" : "74cc0ceaaceb9f9",
+        "parentUid" : "e9a4768005522482dfef0076075d5d16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832465685,
+          "stop" : 1617832466442,
+          "duration" : 757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creditAccount",
+        "uid" : "c021dd7d4ca0f81c",
+        "parentUid" : "e9a4768005522482dfef0076075d5d16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466453,
+          "stop" : 1617832466457,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "prepareForPayment",
+        "uid" : "820084f9443de9db",
+        "parentUid" : "e9a4768005522482dfef0076075d5d16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466461,
+          "stop" : 1617832466465,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9a4768005522482dfef0076075d5d16"
+    }, {
+      "name" : "SimpleTest",
+      "children" : [ {
+        "name" : "testOutput",
+        "uid" : "9f50df79c596b20f",
+        "parentUid" : "ddb37992ca4b1186d54de01c8ac58806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466478,
+          "stop" : 1617832466507,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddb37992ca4b1186d54de01c8ac58806"
+    }, {
+      "name" : "InMemoryStoreTest",
+      "children" : [ {
+        "name" : "delete",
+        "uid" : "3c929a80e0fc7015",
+        "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1617832466530,
+          "stop" : 1617832466530,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "findAll",
+        "uid" : "6670dbcf199d0c63",
+        "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466534,
+          "stop" : 1617832466535,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "save",
+        "uid" : "9dcaad4213a5cc49",
+        "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1617832466538,
+          "stop" : 1617832466538,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1ba5da23ef0bdc03f749484ad56ac28"
+    }, {
+      "name" : "PaymentControllerTest",
+      "children" : [ {
+        "name" : "transferFunds",
+        "uid" : "b00867ea169c9f15",
+        "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466546,
+          "stop" : 1617832466622,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "requestPayment",
+        "uid" : "c61e10f82c71e851",
+        "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466625,
+          "stop" : 1617832466627,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b6e158bbb541f40f37097a3d9d1e5bd"
+    }, {
+      "name" : "PaymentMethodTest",
+      "children" : [ {
+        "name" : "paymentMethod",
+        "uid" : "133a6d9081217501",
+        "parentUid" : "10911eecad9751d3cc6a284a83546c76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617832466637,
+          "stop" : 1617832466637,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10911eecad9751d3cc6a284a83546c76"
+    } ],
+    "uid" : "com.costa.luiz.domain.payment"
+  } ],
+  "name" : "packages"
+}
