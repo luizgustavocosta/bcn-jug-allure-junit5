@@ -1,0 +1,101 @@
+[ {
+  "uid" : "43d121a02c2f14ab",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1617829266345,
+    "stop" : 1617829266350,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e160118dcd758d6",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1617829266419,
+    "stop" : 1617829266419,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2c11b871a70d7c20",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1617829266422,
+    "stop" : 1617829266422,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "e834ea9427aba6eb",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1617829266325,
+    "stop" : 1617829266336,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "faa9ccb09de14917",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1617829266480,
+    "stop" : 1617829266482,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "763faf40442a16ca",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1617829265413,
+    "stop" : 1617829266200,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8728cbda95d6dea6",
+  "name" : "save()",
+  "time" : {
+    "start" : 1617829266424,
+    "stop" : 1617829266424,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "51d25e919eff0a7f",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1617829266367,
+    "stop" : 1617829266396,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6257abde0d94905d",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1617829266490,
+    "stop" : 1617829266491,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b944440168b4d78",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1617829266436,
+    "stop" : 1617829266478,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
