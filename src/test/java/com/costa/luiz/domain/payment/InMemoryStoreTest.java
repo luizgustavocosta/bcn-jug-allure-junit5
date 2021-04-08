@@ -12,12 +12,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 class InMemoryStoreTest {
 
     @Test
-    @Disabled
+    @Disabled("For report purpose")
     void save() {
     }
 
     @Test
-    @Disabled
+    @Disabled("For report purpose")
     void delete() {
     }
 
