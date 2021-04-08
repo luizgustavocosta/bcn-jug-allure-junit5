@@ -62,12 +62,15 @@ class PaymentServiceTest {
          assertNotNull(null);
      }
  ```
-- Ir en la carpeta del proyecto y luego ejecute
- ```maven
- mvn clean verify allure:report
+- Ir en la carpeta del proyecto
+ ```bash
+ cd bcn-jug-allure-junit5
  ```
-- El comando anterior ejecutará todas las pruebas y generará el Allure report
-- Abra el archivo index.html en la carpeta bcn-jug-allure-junit5/target/site
+ - Y luego ejecute
+ ```maven
+ mvn clean verify allure:serve
+ ```
+- Se abrirá una nueva página mostrando el informe.
 
 ![Allure Report](static/allure-report.png)  
 

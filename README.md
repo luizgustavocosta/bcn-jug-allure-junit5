@@ -54,7 +54,7 @@ class PaymentServiceTest {
  ```git
  git clone https://github.com/luizgustavocosta/bcn-jug-allure-junit5.git
  ```
-- Fix the failed test on InMemoryStoreTest class
+- Fix the failed test on InMemoryStoreTest class, if any.
  ```java
      @Test
      @Severity(SeverityLevel.TRIVIAL)
@@ -62,12 +62,15 @@ class PaymentServiceTest {
          assertNotNull(null);
      }
  ```
-- Go to project folder and then execute
+- Go to project folder 
+```bash
+cd bcn-jug-allure-junit5
+```   
+- And then execute
  ```maven
- mvn clean verify allure:report
+ mvn clean verify allure:serve
  ```
-- The command above will execute all tests and generate the Allure report
-- Open the file index.html under the folder bcn-jug-allure-junit5/target/site
+- A new page will be open showing the report
 
 ![Allure Report](static/allure-report.png)  
 
