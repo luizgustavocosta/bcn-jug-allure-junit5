@@ -1,0 +1,121 @@
+[ {
+  "uid" : "c0b25eb4f65bb2e4",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1617901166475,
+    "stop" : 1617901167285,
+    "duration" : 810
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ab5a2a4aadbc961",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1617901167382,
+    "stop" : 1617901167382,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "32798c8bfdbed98",
+  "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+  "time" : {
+    "start" : 1617901166422,
+    "stop" : 1617901166423,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5444acbce4937413",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1617901167300,
+    "stop" : 1617901167303,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0b2b933a61913c9",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1617901167498,
+    "stop" : 1617901167501,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d7286e232e050b",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1617901167514,
+    "stop" : 1617901167515,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0b2c1ad4ca60776",
+  "name" : "save()",
+  "time" : {
+    "start" : 1617901167391,
+    "stop" : 1617901167391,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "17ca50cadfea0ed7",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1617901167386,
+    "stop" : 1617901167387,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "f885d84c7554ff0",
+  "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+  "time" : {
+    "start" : 1617901166198,
+    "stop" : 1617901166284,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cb7b6786d596622",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1617901167400,
+    "stop" : 1617901167495,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "259370f29ee11da1",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1617901167334,
+    "stop" : 1617901167360,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e926e5a3790cbdc",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1617901167309,
+    "stop" : 1617901167314,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
