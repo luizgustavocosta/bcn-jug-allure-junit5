@@ -9,6 +9,9 @@ Share the experience using Allure
 ## Build status
 [![allure-junit5-maven](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml/badge.svg?branch=main)](https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/workflows/bcn-jug-allure-junit5.yml)
 
+## Quality Gate
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=luizgustavocosta_bcn-jug-allure-junit5&metric=alert_status)](https://sonarcloud.io/dashboard?id=luizgustavocosta_bcn-jug-allure-junit5)
+
 ## Tech/framework used
 <b>Built with</b>
 - [OpenJDK 11](https://openjdk.java.net/projects/jdk/11/)
