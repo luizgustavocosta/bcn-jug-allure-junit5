@@ -1,0 +1,182 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az101-378",
+    "children" : [ {
+      "name" : "3044@fv-az101-378.ForkJoinPool-1-worker-3(13)",
+      "children" : [ {
+        "name" : "testOutput()",
+        "uid" : "3c36ca772978e510",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856729,
+          "stop" : 1618086856746,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "save()",
+        "uid" : "bbcfe19d99ba4ae",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618086856805,
+          "stop" : 1618086856805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "paymentMethod()",
+        "uid" : "68fe88de7e1258ee",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856918,
+          "stop" : 1618086856919,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Debit and transfer funds",
+        "uid" : "1cc7941e64a5bc83",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086855896,
+          "stop" : 1618086856708,
+          "duration" : 812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+        "uid" : "dde7ff1088570ef4",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086855828,
+          "stop" : 1618086855829,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+        "uid" : "dd8bc38a8e523cdc",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086855664,
+          "stop" : 1618086855720,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Transfer funds",
+        "uid" : "b59eb48be2c1746d",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856817,
+          "stop" : 1618086856896,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Credit account",
+        "uid" : "2b95f70fb1f12684",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856714,
+          "stop" : 1618086856715,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Request payment",
+        "uid" : "eb13aef61514b53e",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856906,
+          "stop" : 1618086856908,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "findAll()",
+        "uid" : "191713f8c1b94e10",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618086856773,
+          "stop" : 1618086856777,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "delete()",
+        "uid" : "cec555320c664228",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618086856765,
+          "stop" : 1618086856765,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Prepare for payment",
+        "uid" : "cadc9e99db9c3685",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856718,
+          "stop" : 1618086856720,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "account()",
+        "uid" : "5cfe023e24be6f78",
+        "parentUid" : "8d914e6d4d1a0d928e4781e4c906455b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086855846,
+          "stop" : 1618086855851,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d914e6d4d1a0d928e4781e4c906455b"
+    } ],
+    "uid" : "e75fa0e332448ed7733d2882f4aa9581"
+  } ],
+  "name" : "timeline"
+}
