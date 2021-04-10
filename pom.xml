@@ -120,7 +120,6 @@
                     </argLine>
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-<!--                        <allure.results.directory>${project.basedir}/allure-results</allure.results.directory>-->
                         <junit.jupiter.extensions.autodetection.enabled>true</junit.jupiter.extensions.autodetection.enabled>
                         <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>
                         <junit.jupiter.execution.parallel.config.strategy>dynamic</junit.jupiter.execution.parallel.config.strategy>
@@ -151,7 +150,6 @@
                 <configuration>
                     <reportVersion>${allure.version}</reportVersion>
                     <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
-<!--                    <resultsDirectory>${project.basedir}/allure-results</resultsDirectory>-->
                 </configuration>
             </plugin>
         </plugins>
