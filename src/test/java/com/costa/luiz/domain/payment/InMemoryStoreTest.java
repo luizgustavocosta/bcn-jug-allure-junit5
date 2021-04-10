@@ -22,8 +22,8 @@ class InMemoryStoreTest {
     }
 
     @Test
-    @Severity(SeverityLevel.TRIVIAL)
+    @Severity(SeverityLevel.NORMAL)
     void findAll() {
-        assertNotNull("");
+        assertNotNull(null);
     }
 }
