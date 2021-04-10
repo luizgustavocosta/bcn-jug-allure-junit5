@@ -15,14 +15,12 @@ class InMemoryStoreTest {
     InMemoryStore inMemoryStore = new InMemoryStore();
 
     @Test
-    @Disabled("For report purpose")
     void save() {
         inMemoryStore.save("");
         assertEquals(1, inMemoryStore.findAll().size());
     }
 
     @Test
-    @Disabled("For report purpose")
     void delete() {
         inMemoryStore.save("");
         inMemoryStore.delete("");
