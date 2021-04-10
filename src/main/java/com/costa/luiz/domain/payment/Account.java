@@ -7,7 +7,6 @@ public class Account {
 
     private final String name;
     private final String iban;
-    // Just to simplify
     private double balance;
 
     public Account(String name, String iban, double balance) {
