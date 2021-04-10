@@ -19,6 +19,9 @@ public class InMemoryStore<T> {
     }
 
     public void delete(T t) {
+        if (data.isEmpty()) {
+            return;
+        }
         int indexToDelete = -1;
         for (int index = 0; index < data.size(); index++) {
             if (data.get(index).equals(t)) {

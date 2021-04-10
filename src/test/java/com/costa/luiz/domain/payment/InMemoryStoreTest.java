@@ -11,19 +11,23 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 @DisplayName("In memory store")
 class InMemoryStoreTest {
 
+    InMemoryStore inMemoryStore = new InMemoryStore();
+
     @Test
     @Disabled("For report purpose")
     void save() {
+        inMemoryStore.save("");
     }
 
     @Test
     @Disabled("For report purpose")
     void delete() {
+        inMemoryStore.delete("");
     }
 
     @Test
     @Severity(SeverityLevel.NORMAL)
     void findAll() {
-        assertNotNull(null);
+        assertNotNull(inMemoryStore.findAll());
     }
 }
