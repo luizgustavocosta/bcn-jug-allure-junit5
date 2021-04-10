@@ -25,7 +25,6 @@
         <allure.version>2.13.6</allure.version>
         <allure.maven.version>2.10.0</allure.maven.version>
         <allure-selenide.version>2.13.8</allure-selenide.version>
-        <jacoco.version>0.8.3</jacoco.version>
         <sonar.projectKey>luizgustavocosta_bcn-jug-allure-junit5</sonar.projectKey>
         <sonar.organization>luizgustavocosta</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
@@ -152,27 +151,6 @@
                     <reportVersion>${allure.version}</reportVersion>
                     <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>${jacoco.version}</version>
-                <executions>
-                    <execution>
-                        <id>jacoco-initialize</id>
-                        <goals>
-                            <goal>prepare-agent</goal>
-                        </goals>
-                        <phase>test-compile</phase>
-                    </execution>
-                    <execution>
-                        <id>jacoco-site</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
