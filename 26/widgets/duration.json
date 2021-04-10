@@ -1,0 +1,121 @@
+[ {
+  "uid" : "fb0a82ddc2cfe7ff",
+  "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+  "time" : {
+    "start" : 1618089732814,
+    "stop" : 1618089732893,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a56e3987554557d3",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1618089734148,
+    "stop" : 1618089734150,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4bef8319e862112",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1618089734154,
+    "stop" : 1618089734156,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c809e236cdcff293",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1618089734074,
+    "stop" : 1618089734075,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b566024cd682a6eb",
+  "name" : "save()",
+  "time" : {
+    "start" : 1618089734160,
+    "stop" : 1618089734162,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7c27e6670283615",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1618089734171,
+    "stop" : 1618089734254,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb4cce4cb9a7292b",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1618089734078,
+    "stop" : 1618089734080,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b469ca752cbf9f5",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1618089734259,
+    "stop" : 1618089734262,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "449b4ce636402feb",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1618089734279,
+    "stop" : 1618089734280,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e493e20c5f49c7f",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1618089734108,
+    "stop" : 1618089734123,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c9d843b2464c91ec",
+  "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+  "time" : {
+    "start" : 1618089733056,
+    "stop" : 1618089733061,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67530c669b0c70b8",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1618089733117,
+    "stop" : 1618089734068,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
