@@ -1,0 +1,121 @@
+[ {
+  "uid" : "8e36072f880cf9f7",
+  "name" : "save()",
+  "time" : {
+    "start" : 1618088388881,
+    "stop" : 1618088388881,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "870a37539935278f",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1618088388822,
+    "stop" : 1618088388824,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12722da8d85aa9e2",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1618088388011,
+    "stop" : 1618088388813,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "407d9ff25e02ba86",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1618088388934,
+    "stop" : 1618088388935,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26bf3df59f3fd3f",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1618088388872,
+    "stop" : 1618088388872,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eac286a2ee7fb1c",
+  "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+  "time" : {
+    "start" : 1618088387718,
+    "stop" : 1618088387779,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbc8e2cbd805210f",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1618088388949,
+    "stop" : 1618088388949,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3b577af28a545a5f",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1618088388878,
+    "stop" : 1618088388879,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f2cc0fb0b0f7305",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1618088388842,
+    "stop" : 1618088388855,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a2b90f755f6d6dec",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1618088388890,
+    "stop" : 1618088388932,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a429588fb6f4227b",
+  "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+  "time" : {
+    "start" : 1618088387954,
+    "stop" : 1618088387956,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "741adaa3292b3647",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1618088388818,
+    "stop" : 1618088388819,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

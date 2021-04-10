@@ -1,0 +1,125 @@
+{
+  "uid" : "741adaa3292b3647",
+  "name" : "Credit account",
+  "fullName" : "com.costa.luiz.domain.payment.PaymentServiceTest.creditAccount",
+  "historyId" : "35fe5ff4fbe7e63a2b3bba9c9976aef9",
+  "time" : {
+    "start" : 1618088388818,
+    "stop" : 1618088388819,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1618088388819,
+      "stop" : 1618088388819,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Payment"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-378"
+  }, {
+    "name" : "thread",
+    "value" : "3076@fv-az101-378.ForkJoinPool-1-worker-3(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.costa.luiz.domain.payment.PaymentServiceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.costa.luiz.domain.payment.PaymentServiceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "creditAccount"
+  }, {
+    "name" : "suite",
+    "value" : "Payment Service"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "6f3d0b967dd99658",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/22//#testresult/6f3d0b967dd99658",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618087797651,
+          "stop" : 1618087797652,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2fafef413f2ec997",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/21//#testresult/2fafef413f2ec997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618087322754,
+          "stop" : 1618087322755,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a444c03986e66a3f",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/20//#testresult/a444c03986e66a3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618087039817,
+          "stop" : 1618087039821,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "2b95f70fb1f12684",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/19//#testresult/2b95f70fb1f12684",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618086856714,
+          "stop" : 1618086856715,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "741adaa3292b3647.json",
+  "parameterValues" : [ ]
+}
