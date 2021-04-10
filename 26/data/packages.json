@@ -6,26 +6,26 @@
       "name" : "AccountTest",
       "children" : [ {
         "name" : "balanceOperation",
-        "uid" : "fb0a82ddc2cfe7ff",
+        "uid" : "70971a22c189566",
         "parentUid" : "41197803a038043f5f534b2c56455eaf",
         "status" : "passed",
         "time" : {
-          "start" : 1618089732814,
-          "stop" : 1618089732893,
-          "duration" : 79
+          "start" : 1618090286889,
+          "stop" : 1618090286971,
+          "duration" : 82
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "balanceOperation",
-        "uid" : "c9d843b2464c91ec",
+        "uid" : "75dc69a5b203225b",
         "parentUid" : "41197803a038043f5f534b2c56455eaf",
         "status" : "passed",
         "time" : {
-          "start" : 1618089733056,
-          "stop" : 1618089733061,
-          "duration" : 5
+          "start" : 1618090287104,
+          "stop" : 1618090287105,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -36,25 +36,25 @@
       "name" : "PaymentServiceTest",
       "children" : [ {
         "name" : "debitAccountAndTransferFunds",
-        "uid" : "67530c669b0c70b8",
+        "uid" : "5bfe5a9984d2010c",
         "parentUid" : "e9a4768005522482dfef0076075d5d16",
         "status" : "passed",
         "time" : {
-          "start" : 1618089733117,
-          "stop" : 1618089734068,
-          "duration" : 951
+          "start" : 1618090287130,
+          "stop" : 1618090287988,
+          "duration" : 858
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "creditAccount",
-        "uid" : "c809e236cdcff293",
+        "uid" : "d471b668f82a0307",
         "parentUid" : "e9a4768005522482dfef0076075d5d16",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734074,
-          "stop" : 1618089734075,
+          "start" : 1618090288036,
+          "stop" : 1618090288037,
           "duration" : 1
         },
         "flaky" : false,
@@ -62,13 +62,13 @@
         "parameters" : [ ]
       }, {
         "name" : "prepareForPayment",
-        "uid" : "eb4cce4cb9a7292b",
+        "uid" : "2b10830b1ca38139",
         "parentUid" : "e9a4768005522482dfef0076075d5d16",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734078,
-          "stop" : 1618089734080,
-          "duration" : 2
+          "start" : 1618090288044,
+          "stop" : 1618090288052,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,13 +79,13 @@
       "name" : "SimpleTest",
       "children" : [ {
         "name" : "testOutput",
-        "uid" : "1e493e20c5f49c7f",
+        "uid" : "bfee8e215bb9d89f",
         "parentUid" : "ddb37992ca4b1186d54de01c8ac58806",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734108,
-          "stop" : 1618089734123,
-          "duration" : 15
+          "start" : 1618090288068,
+          "stop" : 1618090288097,
+          "duration" : 29
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,25 +96,25 @@
       "name" : "InMemoryStoreTest",
       "children" : [ {
         "name" : "delete",
-        "uid" : "a56e3987554557d3",
+        "uid" : "8ce164d3a0215db",
         "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734148,
-          "stop" : 1618089734150,
-          "duration" : 2
+          "start" : 1618090288116,
+          "stop" : 1618090288117,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "findAll",
-        "uid" : "e4bef8319e862112",
+        "uid" : "621359db436d662a",
         "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734154,
-          "stop" : 1618089734156,
+          "start" : 1618090288119,
+          "stop" : 1618090288121,
           "duration" : 2
         },
         "flaky" : false,
@@ -122,12 +122,12 @@
         "parameters" : [ ]
       }, {
         "name" : "save",
-        "uid" : "b566024cd682a6eb",
+        "uid" : "d62b46b937d897bf",
         "parentUid" : "b1ba5da23ef0bdc03f749484ad56ac28",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734160,
-          "stop" : 1618089734162,
+          "start" : 1618090288124,
+          "stop" : 1618090288126,
           "duration" : 2
         },
         "flaky" : false,
@@ -139,25 +139,25 @@
       "name" : "PaymentControllerTest",
       "children" : [ {
         "name" : "transferFunds",
-        "uid" : "d7c27e6670283615",
+        "uid" : "6dc5dbc14bfc1a14",
         "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734171,
-          "stop" : 1618089734254,
-          "duration" : 83
+          "start" : 1618090288134,
+          "stop" : 1618090288214,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "requestPayment",
-        "uid" : "5b469ca752cbf9f5",
+        "uid" : "afe08be863c4545b",
         "parentUid" : "8b6e158bbb541f40f37097a3d9d1e5bd",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734259,
-          "stop" : 1618089734262,
+          "start" : 1618090288219,
+          "stop" : 1618090288222,
           "duration" : 3
         },
         "flaky" : false,
@@ -169,12 +169,12 @@
       "name" : "PaymentMethodTest",
       "children" : [ {
         "name" : "paymentMethod",
-        "uid" : "449b4ce636402feb",
+        "uid" : "9ea2502fed0f8974",
         "parentUid" : "10911eecad9751d3cc6a284a83546c76",
         "status" : "passed",
         "time" : {
-          "start" : 1618089734279,
-          "stop" : 1618089734280,
+          "start" : 1618090288236,
+          "stop" : 1618090288237,
           "duration" : 1
         },
         "flaky" : false,

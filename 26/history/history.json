@@ -42,11 +42,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 4,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "d62b46b937d897bf",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/d62b46b937d897bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288124,
+        "stop" : 1618090288126,
+        "duration" : 2
+      }
+    }, {
       "uid" : "b566024cd682a6eb",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/b566024cd682a6eb",
       "status" : "passed",
@@ -129,11 +138,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "621359db436d662a",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/621359db436d662a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288119,
+        "stop" : 1618090288121,
+        "duration" : 2
+      }
+    }, {
       "uid" : "e4bef8319e862112",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/e4bef8319e862112",
       "status" : "passed",
@@ -214,11 +232,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "afe08be863c4545b",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/afe08be863c4545b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288219,
+        "stop" : 1618090288222,
+        "duration" : 3
+      }
+    }, {
       "uid" : "5b469ca752cbf9f5",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/5b469ca752cbf9f5",
       "status" : "passed",
@@ -297,11 +324,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "d471b668f82a0307",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/d471b668f82a0307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288036,
+        "stop" : 1618090288037,
+        "duration" : 1
+      }
+    }, {
       "uid" : "c809e236cdcff293",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/c809e236cdcff293",
       "status" : "passed",
@@ -380,11 +416,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "75dc69a5b203225b",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/75dc69a5b203225b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090287104,
+        "stop" : 1618090287105,
+        "duration" : 1
+      }
+    }, {
       "uid" : "c9d843b2464c91ec",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/c9d843b2464c91ec",
       "status" : "passed",
@@ -463,11 +508,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "2b10830b1ca38139",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/2b10830b1ca38139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288044,
+        "stop" : 1618090288052,
+        "duration" : 8
+      }
+    }, {
       "uid" : "eb4cce4cb9a7292b",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/eb4cce4cb9a7292b",
       "status" : "passed",
@@ -546,11 +600,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "9ea2502fed0f8974",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/9ea2502fed0f8974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288236,
+        "stop" : 1618090288237,
+        "duration" : 1
+      }
+    }, {
       "uid" : "449b4ce636402feb",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/449b4ce636402feb",
       "status" : "passed",
@@ -629,11 +692,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 4,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "8ce164d3a0215db",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/8ce164d3a0215db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288116,
+        "stop" : 1618090288117,
+        "duration" : 1
+      }
+    }, {
       "uid" : "a56e3987554557d3",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/a56e3987554557d3",
       "status" : "passed",
@@ -716,11 +788,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "5bfe5a9984d2010c",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/5bfe5a9984d2010c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090287130,
+        "stop" : 1618090287988,
+        "duration" : 858
+      }
+    }, {
       "uid" : "67530c669b0c70b8",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/67530c669b0c70b8",
       "status" : "passed",
@@ -799,11 +880,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "70971a22c189566",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/70971a22c189566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090286889,
+        "stop" : 1618090286971,
+        "duration" : 82
+      }
+    }, {
       "uid" : "fb0a82ddc2cfe7ff",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/fb0a82ddc2cfe7ff",
       "status" : "passed",
@@ -882,11 +972,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "6dc5dbc14bfc1a14",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/6dc5dbc14bfc1a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288134,
+        "stop" : 1618090288214,
+        "duration" : 80
+      }
+    }, {
       "uid" : "d7c27e6670283615",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/d7c27e6670283615",
       "status" : "passed",
@@ -965,11 +1064,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "bfee8e215bb9d89f",
+      "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/bfee8e215bb9d89f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618090288068,
+        "stop" : 1618090288097,
+        "duration" : 29
+      }
+    }, {
       "uid" : "1e493e20c5f49c7f",
       "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/1e493e20c5f49c7f",
       "status" : "passed",
