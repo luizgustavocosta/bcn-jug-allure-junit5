@@ -1,0 +1,121 @@
+[ {
+  "uid" : "a437bcc551be7fcd",
+  "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+  "time" : {
+    "start" : 1618669560161,
+    "stop" : 1618669560162,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb40a40f928e74c4",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1618669560974,
+    "stop" : 1618669560976,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f9300145c9b5cefd",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1618669561136,
+    "stop" : 1618669561137,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b0cff88b71f1309",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1618669560981,
+    "stop" : 1618669560984,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b107a024d91bbf",
+  "name" : "save()",
+  "time" : {
+    "start" : 1618669561065,
+    "stop" : 1618669561066,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eab079d83ff15e8e",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1618669561124,
+    "stop" : 1618669561126,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c030dbcb1f5061b4",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1618669561015,
+    "stop" : 1618669561041,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9152ebb204643ed1",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1618669560205,
+    "stop" : 1618669560959,
+    "duration" : 754
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c851633c563c67ff",
+  "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+  "time" : {
+    "start" : 1618669559958,
+    "stop" : 1618669560023,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4899961147ffbc6",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1618669561060,
+    "stop" : 1618669561061,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "178bb9e1c9157a05",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1618669561062,
+    "stop" : 1618669561063,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88cb499fbd8f2287",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1618669561070,
+    "stop" : 1618669561122,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

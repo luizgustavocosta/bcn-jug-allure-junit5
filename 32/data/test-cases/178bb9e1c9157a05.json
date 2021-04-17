@@ -1,0 +1,199 @@
+{
+  "uid" : "178bb9e1c9157a05",
+  "name" : "findAll()",
+  "fullName" : "com.costa.luiz.domain.payment.InMemoryStoreTest.findAll",
+  "historyId" : "c41a867c9fbcc2b60d23271ae20bd4c7",
+  "time" : {
+    "start" : 1618669561062,
+    "stop" : 1618669561063,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az99-770"
+  }, {
+    "name" : "thread",
+    "value" : "2942@fv-az99-770.ForkJoinPool-1-worker-3(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.costa.luiz.domain.payment.InMemoryStoreTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.costa.luiz.domain.payment.InMemoryStoreTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "findAll"
+  }, {
+    "name" : "suite",
+    "value" : "In memory store"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "42cc1323902f7b98",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/31//#testresult/42cc1323902f7b98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618669340901,
+          "stop" : 1618669340902,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c4ad8b9bef7c6915",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/30//#testresult/c4ad8b9bef7c6915",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618133228497,
+          "stop" : 1618133228498,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a6af31f961c93592",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/29//#testresult/a6af31f961c93592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618092120535,
+          "stop" : 1618092120537,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "87a9457812ef7e27",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/28//#testresult/87a9457812ef7e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618091390999,
+          "stop" : 1618091391001,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "2939a2dbd6af96a0",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/27//#testresult/2939a2dbd6af96a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618091080896,
+          "stop" : 1618091080897,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "621359db436d662a",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/621359db436d662a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618090288119,
+          "stop" : 1618090288121,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "e4bef8319e862112",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/26//#testresult/e4bef8319e862112",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618089734154,
+          "stop" : 1618089734156,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "fa44e4ef4f5c7c01",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/25//#testresult/fa44e4ef4f5c7c01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618089401410,
+          "stop" : 1618089401411,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b158a3dd9a6c155c",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/24//#testresult/b158a3dd9a6c155c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618088985873,
+          "stop" : 1618088985873,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3b577af28a545a5f",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/23//#testresult/3b577af28a545a5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618088388878,
+          "stop" : 1618088388879,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d0b961b85d3c83a5",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/22//#testresult/d0b961b85d3c83a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618087797730,
+          "stop" : 1618087797732,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "2296dbd3a369fc70",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/21//#testresult/2296dbd3a369fc70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618087322818,
+          "stop" : 1618087322820,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "1cde233015685e2a",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/20//#testresult/1cde233015685e2a",
+        "status" : "failed",
+        "statusDetails" : "expected: not <null>",
+        "time" : {
+          "start" : 1618087039900,
+          "stop" : 1618087039904,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "191713f8c1b94e10",
+        "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/19//#testresult/191713f8c1b94e10",
+        "status" : "failed",
+        "statusDetails" : "expected: not <null>",
+        "time" : {
+          "start" : 1618086856773,
+          "stop" : 1618086856777,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "178bb9e1c9157a05.json",
+  "parameterValues" : [ ]
+}
