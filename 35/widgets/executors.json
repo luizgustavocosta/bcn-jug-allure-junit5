@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5",
+  "buildOrder" : 35,
+  "buildName" : "GitHub Actions Run #758681909",
+  "buildUrl" : "https://github.com/luizgustavocosta/bcn-jug-allure-junit5/actions/runs/758681909",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://luizgustavocosta.github.io/bcn-jug-allure-junit5/35/"
+} ]
