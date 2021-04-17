@@ -32,7 +32,7 @@
         <project.scm.id>github</project.scm.id>
     </properties>
     <scm>
-        <developerConnection>scm://github.com/luizgustavocosta/bcn-jug-allure-junit5.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/luizgustavocosta/bcn-jug-allure-junit5.git</developerConnection>
     </scm>
 
     <dependencies>
