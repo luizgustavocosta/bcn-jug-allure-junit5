@@ -29,7 +29,11 @@
         <sonar.projectKey>luizgustavocosta_bcn-jug-allure-junit5</sonar.projectKey>
         <sonar.organization>luizgustavocosta</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <project.scm.id>github</project.scm.id>
     </properties>
+    <scm>
+        <developerConnection>scm://github.com/luizgustavocosta/bcn-jug-allure-junit5.git</developerConnection>
+    </scm>
 
     <dependencies>
         <dependency>
