@@ -4,7 +4,7 @@
 
     <groupId>com.costa.luiz</groupId>
     <artifactId>allure-junit5</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>bcn-jug-allure-junit5</name>
 
