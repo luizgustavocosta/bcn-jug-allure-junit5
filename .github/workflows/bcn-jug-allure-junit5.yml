@@ -83,6 +83,6 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
       - name: Publish JAR
-        run: mvn -B -Dmaven.clean.failOnError=false release:prepare release:perform
+        run: mvn -B -Dmaven.clean.skip=true release:prepare release:perform
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
