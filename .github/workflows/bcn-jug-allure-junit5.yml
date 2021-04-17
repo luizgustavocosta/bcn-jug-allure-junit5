@@ -59,7 +59,7 @@ jobs:
       #Allure
       - name: Get Allure history
         uses: actions/checkout@v2
-        if: '!release'
+        if: always()
         continue-on-error: true
         with:
           ref: gh-pages
@@ -67,7 +67,7 @@ jobs:
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
-        if: '!release'
+        if: always()
         id: allure-report
         with:
           allure_results: target/allure-results
@@ -76,13 +76,13 @@ jobs:
           allure_history: allure-history
 
       - name: Deploy report to Github Pages
-        if: '!release'
+        if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-      - name: Publish JAR
-        run: mvn -B release:prepare release:perform
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Publish JAR
+#        run: mvn -B release:prepare release:perform
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
