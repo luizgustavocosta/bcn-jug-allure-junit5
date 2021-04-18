@@ -13,7 +13,6 @@
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <junit.maven.surefire.plugin.version>2.19.1</junit.maven.surefire.plugin.version>
         <junit.platform.commons.version>1.7.0</junit.platform.commons.version>
-        <junit.platform.commons.version>1.6.2</junit.platform.commons.version>
         <junit.platform.surefire.provider.version>1.1.0</junit.platform.surefire.provider.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <mockito.core.version>2.24.0</mockito.core.version>
