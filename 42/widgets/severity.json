@@ -1,0 +1,121 @@
+[ {
+  "uid" : "f82ea9638f5bce73",
+  "name" : "save()",
+  "time" : {
+    "start" : 1618738535115,
+    "stop" : 1618738535115,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e59dd5dbe5e86d3f",
+  "name" : "Debit and transfer funds",
+  "time" : {
+    "start" : 1618738534347,
+    "stop" : 1618738535055,
+    "duration" : 708
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "af20a88c17fa0deb",
+  "name" : "paymentMethod()",
+  "time" : {
+    "start" : 1618738535166,
+    "stop" : 1618738535168,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3ba25bf825a6bae7",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1618738535118,
+    "stop" : 1618738535156,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6db1dbf49af8e9bc",
+  "name" : "[1] CREDIT, 100.0, 200.0, 300.0",
+  "time" : {
+    "start" : 1618738534100,
+    "stop" : 1618738534173,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3f9e951d01adbb3",
+  "name" : "[2] DEBIT, 400.0, 100.0, 300.0",
+  "time" : {
+    "start" : 1618738534297,
+    "stop" : 1618738534298,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bef0927a9d7a8729",
+  "name" : "testOutput()",
+  "time" : {
+    "start" : 1618738535080,
+    "stop" : 1618738535103,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "712eb529c1b5ce27",
+  "name" : "Request payment",
+  "time" : {
+    "start" : 1618738535158,
+    "stop" : 1618738535160,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94b2ccf37532d053",
+  "name" : "Credit account",
+  "time" : {
+    "start" : 1618738535061,
+    "stop" : 1618738535062,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1bbbc7b35af1a9ef",
+  "name" : "Prepare for payment",
+  "time" : {
+    "start" : 1618738535064,
+    "stop" : 1618738535071,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "216cf2c631e84eb7",
+  "name" : "delete()",
+  "time" : {
+    "start" : 1618738535109,
+    "stop" : 1618738535110,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a4aa9f7d906d5",
+  "name" : "findAll()",
+  "time" : {
+    "start" : 1618738535112,
+    "stop" : 1618738535113,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
